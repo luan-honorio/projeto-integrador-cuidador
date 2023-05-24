@@ -14,6 +14,6 @@ document.getElementById("btnlog").addEventListener("click", () => {
     
 
   } else {
-    alert("usuario existe");
+    alert("usuario não existe");
   }
 });
