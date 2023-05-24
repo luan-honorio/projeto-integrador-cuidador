@@ -1,0 +1,182 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    #box-header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(216, 238, 156, 0.2); ;
+    }
+
+    main{
+        background-image: url(../img/dominik-lange-VUOiQW4OeLI-unsplash\ 1\ \(1\).jpg);
+        background-size: cover;
+        height: 100%;
+        opacity: 80%;
+    
+    }
+    .box-tudo{
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        padding: 20px   ;
+    }
+    .box-titulo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-for{
+        background-color: rgba(218, 227, 196, 0.8);
+        width: 47%;
+        height: 50rem;
+
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 1rem;
+    }
+
+    .div-form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    input{
+        padding: 10px;
+    
+    }
+    button a{
+        text-decoration: none;
+        color: #000;
+    }
+    .box-fm{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-form input{
+        width: 100%;
+        height: 2rem;
+
+        border-radius:20px ;
+        border: none;
+        background-color:#CCC6C6;
+    }
+
+
+    .btn button{
+        padding: 5px 45px;
+        background-color: #CCC6C6;
+        color: #000;
+        border: none;
+        border-radius: 15px;
+    }
+
+    .bx-gen{
+    display: flex;
+    align-items: center;
+
+    }
+
+
+    @media(max-width: 1000px){
+        .box-for{
+            width: 55%;
+        }
+    }
+
+    @media(max-width: 700px){
+    
+        .box-for{
+            width: 70%;
+        }
+    }
+
+    @media(max-width: 500px){
+
+        .box-for{
+            width: 95%;
+        }
+        .btn{
+            width: 75%;
+    
+        }
+        #buton{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+
+
+    .div-al, .div-al2{
+        color: red;
+        display: none  ;
+    }
+
+    .mod{
+        display: none;
+        width: 100%;
+        height: 100%;
+        z-index: 1  ;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    
+        background-color: #00000079;
+    }
+    .position{
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mod-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        height: 300px;
+        width: 300px;
+        background-color: #AAC089;
+        
+        border-radius: 10px;
+    }
+
+    .mod-box a{
+        text-decoration: none;
+        color: #000;
+        
+    }
+    .mod-box a:hover{
+      color: rgb(246, 255, 255);
+        
+    }
+
+    footer{
+        text-align: center;
+        background-color: #AAC089;
+        padding: 30px;
+        color: white;
+    }
